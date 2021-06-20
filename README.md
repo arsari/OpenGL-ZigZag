@@ -1,10 +1,20 @@
 # Zig Zag Chair Using OpenGL
 
+---
+## CS330 Computational Graphics and Visualization<br/>Prof. Eugenio Rodriguez M.S, MBA<br/>December 2020
+
+---
+[![Generic badge](https://img.shields.io/badge/language-C++-blue.svg)](http://www.cplusplus.org/) [![Generic badge](https://img.shields.io/badge/technologies-OpenGL_|_FreeGlut_|_Glew_|_GLM_|_SOIL-purple.svg)](https://www.wikihow.com/Set-Up-an-OpenGL-FreeGLUT-GLEW-Template-Project-in-Visual-Studio) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
+
+![Final Work Screenshot](CS330-M7-1_Screenshot.png)
+
 ## DEVELOPMENT CHOICES
 
 The object modeled, using modern OpenGL, is a furniture chair designed by the architect Gerrit Thomas Rietveld called the Zig Zag Chair in 1934. The Zig-Zag chair is simple in its appearance, but it's quite a complex construction. It uses only four planes that are joined using a system of dovetailing. All joints are placed at optimum locations for load bearing since it has no legs.
 
 The chair's supporting part is the diagonal wood plane leading to the front of the central seating plane. It's so functional and simplistic. The chair's uniqueness is that it's perfectly lightweight and requires a minimum amount of space for the store. The Zig-Zag chair is one of the most important chairs to exist and led the way for many others of this kind. The chair really concentrated on a functional design style that revolved around standardization, inexpensive production methods, and material.
+
+**For a detailed description, function, and screen examples, please read the [Word Paper document](CS330-M7-1_Paper.docx).**
 
 ## USER CAN NAVIGATE
 
@@ -39,3 +49,12 @@ __GLEW__ stands for OpenGL Extension Wrangler Library. It provides the gl comman
 __GLM__ stands for OpenGL Mathematics. It will be used for tasks such as moving, rotating, and scaling objects. GLM also provides some functions for trigonometry, which will become useful when controlling cameras.
 
 __SOIL__ stands Simple OpenGL Image Library. It will be used for processing and loading image file formats that will be used for texturing your OpenGL models.
+
+---
+## License
+
+[MIT](LICENSE)
+
+---
+
+_[Last Update June 2021 by ASR]_
