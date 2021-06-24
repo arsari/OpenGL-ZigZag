@@ -1,10 +1,11 @@
 # Zig Zag Chair Using OpenGL
 
 ---
+
 ## CS330 Computational Graphics and Visualization<br/>Prof. Eugenio Rodriguez M.S, MBA<br/>December 2020
 
 ---
-[![Generic badge](https://img.shields.io/badge/language-C++-blue.svg)](http://www.cplusplus.org/) [![Generic badge](https://img.shields.io/badge/technologies-OpenGL_|_FreeGlut_|_Glew_|_GLM_|_SOIL-purple.svg)](https://www.wikihow.com/Set-Up-an-OpenGL-FreeGLUT-GLEW-Template-Project-in-Visual-Studio) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
+[![Generic badge](https://img.shields.io/badge/language-C++-blue.svg)](http://www.cplusplus.org/) [![Generic badge](https://img.shields.io/badge/technologies-OpenGL_|_FreeGlut_|_Glew_|_GLM_|_SOIL-purple.svg)](https://www.wikihow.com/Set-Up-an-OpenGL-FreeGLUT-GLEW-Template-Project-in-Visual-Studio) [![Generic badge](https://img.shields.io/badge/ide-Eclipse-purple.svg)](https://www.eclipse.org/) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 ![Final Work Screenshot](CS330-M7-1_Screenshot.png)
 
@@ -40,7 +41,7 @@ As a help to the user to have visual, the navigate controls of the 3D chair, a c
 
 ## To Run The Code
 
-You need to have set up an OpneGL development in your IDE and Windows computer. The code only run in Windows environment. Tools needed to run the code:
+You need to have set up an OpenGL development in your IDE and Windows computer. The code only run in Windows environment. Tools needed to run the code:
 
 __FreeGLUT__ is an OpenGL library that will be used primarily for generating OpenGL windows and reading user input via input devices such as the keyboard and mouse.
 
@@ -51,6 +52,7 @@ __GLM__ stands for OpenGL Mathematics. It will be used for tasks such as moving,
 __SOIL__ stands Simple OpenGL Image Library. It will be used for processing and loading image file formats that will be used for texturing your OpenGL models.
 
 ---
+
 ## License
 
 [MIT](LICENSE)
