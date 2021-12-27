@@ -5,6 +5,7 @@
 ## CS330 Computational Graphics and Visualization<br/>Prof. Eugenio Rodriguez M.S, MBA<br/>December 2020
 
 ---
+
 [![Generic badge](https://img.shields.io/badge/language-C++-blue.svg)](http://www.cplusplus.org/) [![Generic badge](https://img.shields.io/badge/technologies-OpenGL_|_FreeGlut_|_Glew_|_GLM_|_SOIL-purple.svg)](https://www.wikihow.com/Set-Up-an-OpenGL-FreeGLUT-GLEW-Template-Project-in-Visual-Studio) [![Generic badge](https://img.shields.io/badge/ide-Eclipse-purple.svg)](https://www.eclipse.org/) [![Generic badge](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE)
 
 ![Final Work Screenshot](CS330-M7-1_Screenshot.png)
@@ -29,9 +30,9 @@ Additionally, the user can view the 3D chair in wireframe mode by using the tap 
 
 The program uses custom functions for navigation actions, controls, and Phong light model calculations. For the Phong light mode, we use the variable method:
 
-~~~ c++
+```c++
 vec3 LightCalc(vec3 fragPos, vec3 objTex, vec3 norm, vec3 viewDir, vec3 lightColor, vec3 lightPos) {…}
-~~~
+```
 
 That can be executed for an unlimited amount of lamps. The variable method calculates the ambient, diffuse, and specular of the lamp and returns the Phong's value. For the user to navigate the 3D, we add keyboard functions that manage the tap of a keyboard key, <code>UKeyboard()</code>, and detect the release of the key pressed, <code>UKeyReleased()</code>.
 
@@ -41,15 +42,17 @@ As a help to the user to have visual, the navigate controls of the 3D chair, a c
 
 ## To Run The Code
 
-You need to have set up an OpenGL development in your IDE and Windows computer. The code only run in Windows environment. Tools needed to run the code:
+You need to have set up an OpenGL development in your IDE and Windows OS computer. Tools needed to run the code:
 
-__FreeGLUT__ is an OpenGL library that will be used primarily for generating OpenGL windows and reading user input via input devices such as the keyboard and mouse.
+**FreeGLUT** is an OpenGL library that will be used for generating OpenGL windows and reading user input via input devices such as the keyboard and mouse.
 
-__GLEW__ stands for OpenGL Extension Wrangler Library. It provides the gl command, which will be used for your development.
+**GLEW** stands for OpenGL Extension Wrangler Library. It provides the gl command, which will be used for your development.
 
-__GLM__ stands for OpenGL Mathematics. It will be used for tasks such as moving, rotating, and scaling objects. GLM also provides some functions for trigonometry, which will become useful when controlling cameras.
+**GLM** stands for OpenGL Mathematics. It will be used for tasks such as moving, rotating, and scaling objects. GLM provides functions for trigonometry, which will become useful when controlling cameras.
 
-__SOIL__ stands Simple OpenGL Image Library. It will be used for processing and loading image file formats that will be used for texturing your OpenGL models.
+**SOIL** stands Simple OpenGL Image Library. It will be used for processing and loading image file formats that will be used for texturing your OpenGL models. SOIL2 directory is included in this repository.
+
+[Click here](https://youtu.be/qFlJXMpxAO4) for a reference video on how to set up the tools of FreeGLUT, GLEW, and GLM in a Windows OS environment.
 
 ---
 
@@ -59,4 +62,4 @@ __SOIL__ stands Simple OpenGL Image Library. It will be used for processing and 
 
 ---
 
-_[Last Update June 2021 by ASR]_
+_[Last Update December 2021 by ASR]_

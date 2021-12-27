@@ -12,9 +12,9 @@
 #include <GL/freeglut.h>
 
 /* GLM Math Header inclusions */
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
+#include <GL/glm/glm.hpp>
+#include <GL/glm/gtc/matrix_transform.hpp>
+#include <GL/glm/gtc/type_ptr.hpp>
 
 /* Soil Image Loader inclusion */
 #include "SOIL2/SOIL2.h"
