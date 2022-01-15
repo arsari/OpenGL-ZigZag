@@ -1,8 +1,8 @@
-# Zig Zag Chair Using OpenGL
+# Zig-Zag Chair Using OpenGL
 
 ---
 
-## CS330 Computational Graphics and Visualization<br/>Prof. Eugenio Rodriguez M.S, MBA<br/>December 2020
+## CS330 Computational Graphics and Visualization 20EW2<br/>December 2020
 
 ---
 
@@ -16,7 +16,7 @@ The object modeled, using modern OpenGL, is a furniture chair designed by the ar
 
 The chair's supporting part is the diagonal wood plane leading to the front of the central seating plane. It's so functional and simplistic. The chair's uniqueness is that it's perfectly lightweight and requires a minimum amount of space for the store. The Zig-Zag chair is one of the most important chairs to exist and led the way for many others of this kind. The chair really concentrated on a functional design style that revolved around standardization, inexpensive production methods, and material.
 
-**For a detailed description, function, and screen examples, please read the [Word Paper document](CS330-M7-1_Paper.docx).**
+**For a detailed description, function, and screen examples, please read the [Word Document](CS330-M7-1_Paper.docx) paper.**
 
 ## USER CAN NAVIGATE
 
@@ -62,4 +62,4 @@ You need to have set up an OpenGL development in your IDE and Windows OS compute
 
 ---
 
-_[Last Update December 2021 by ASR]_
+<small>_[Last Update January, 2022 by ASR]_</small>
