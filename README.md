@@ -56,10 +56,8 @@ You need to have set up an OpenGL development in your IDE and Windows OS compute
 
 ---
 
-## License
-
-[MIT](LICENSE)
+[![SNHU Private Repository](https://img.shields.io/badge/repo-SNHU-blueviolet.svg?style=for-the-badge&logo=github)](https://github.com/arsari/arsari-snhu "Back to SNHU Private Repo") [![License badge](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge&logo=github)](LICENSE "GitHub MIT License")
 
 ---
 
-<small>_[Last Update January, 2022 by ASR]_</small>
+<small>_[Updated April, 2022 by ASR]_</small>
